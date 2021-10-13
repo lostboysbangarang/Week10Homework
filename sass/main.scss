@@ -1,0 +1,33 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #F27A02;
+    position: relative;
+    & .container {
+        width: 100%;
+        // max-width: 1600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative; 
+        // ba
+        & .row {
+            // position: ;
+            // margin: 0 auto;
+            max-width: 1200px;
+            width: 100%;
+            // background-color: #303030;
+            z-index: 2;
+            & .nav {
+                & img {
+                    height: 50px;
+                    width: auto;
+                    filter: invert(99%) sepia(67%) saturate(0%) hue-rotate(189deg) brightness(110%) contrast(101%);
+                }
+            }
+        }
+    }
+}

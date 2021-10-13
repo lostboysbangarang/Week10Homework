@@ -1,0 +1,29 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #F27A02;
+  position: relative;
+}
+.header .container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.header .container .row {
+  max-width: 1200px;
+  width: 100%;
+  z-index: 2;
+}
+.header .container .row .nav img {
+  height: 50px;
+  width: auto;
+  filter: invert(99%) sepia(67%) saturate(0%) hue-rotate(189deg) brightness(110%) contrast(101%);
+}
+
+/*# sourceMappingURL=style.css.map */
