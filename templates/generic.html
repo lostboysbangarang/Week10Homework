@@ -1,0 +1,31 @@
+<div class="employeeCard">
+    <div class="rowTop">
+        <h3 class="name">{{ Name }}</h3>
+        <div class="iconTitle">
+            {{ svg }}
+            <h4 class="title">
+                {{ title }}
+            </h4>     
+        </div>
+    </div>  
+    <div class="rowBottom">
+        <div class="element">
+            <div>ID:</div>
+            <div class="idElem">
+                {{ id }}
+            </div>
+        </div>
+        <div class="element">
+            <div>Email:</div>
+            <div class="emailElem">
+                <a href="mailto:{{ email }}"> {{ email }}</a>
+            </div>
+        </div>
+        <div class="element">
+            <div>{{ unique }}</div>
+            <div class="emailElem">
+                {{ uniqueID }}
+            </div>
+        </div>
+    </div>
+</div>
